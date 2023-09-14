@@ -1,5 +1,5 @@
 {
-  "name": "undiff",
+  "name": "denoising-diffusion-gan",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -7,8 +7,11 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.43.0",
+    "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.36.2"
   }
 }

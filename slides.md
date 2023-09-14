@@ -16,7 +16,7 @@ title: UnDiff
 mdc: true
 ---
 
-# UnDiff
+# [UnDiff](https://www.isca-speech.org/archive/interspeech_2023/iashchenko23_interspeech.html)
 ## Unsupervised Voice Restoration
 ## with Unconditional Diffusion Model
 
@@ -112,7 +112,7 @@ To address this issue, this study introduces UnDiff, which uses a differentiable
 
 </div>
 
-<span v-click>UnDiff showcases the latent potential s in solving general inverse problems for speech processing under the premise of **Unsupervised Learning**.</span>
+<span v-click>UnDiff showcases the latent potential in solving general inverse problems for speech processing under the premise of **Unsupervised Learning**.</span>
 
 </p>
 
@@ -209,7 +209,7 @@ $$\begin{aligned}
 
 </p>
 
-<span class="text-2xl absolute top-70 right-25">Unconditional Diffusion Models</span>
+<span class="text-2xl absolute top-60 right-25">Unconditional Diffusion Models</span>
 
 <SlideCurrentNo class="absolute bottom-4 right-8" />
 
@@ -239,7 +239,7 @@ $$\begin{aligned}
 
 </p>
 
-<p class="text-2xl absolute top-60 right-25 m-0 p-0">
+<p class="text-2xl absolute top-52 right-25 m-0 p-0">
 
 $$\begin{aligned}
 \approx&\nabla_{\mathbf{x}_t} \log p(\mathbf{y}\vert \mathbf{\hat x}_0=\frac{1}{\sqrt{\bar\alpha(t)}}(\mathbf{x}_t-(1-\bar\alpha(t))\mathbf{s}_{\theta}(\mathbf{x}_t)))\\
@@ -524,7 +524,7 @@ h1 {
 
 ---
 
-# Architecture of $\mathbf{s}_{\theta}(\mathbf{x_t}, t)$
+# Architecture of Diffusion Model
 
 <div class="grid grid-cols-2">
 
