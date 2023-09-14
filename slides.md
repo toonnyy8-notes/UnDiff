@@ -14,6 +14,7 @@ drawings:
 transition: slide-left
 title: UnDiff
 mdc: true
+download: true
 ---
 
 # [UnDiff](https://www.isca-speech.org/archive/interspeech_2023/iashchenko23_interspeech.html)
