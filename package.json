@@ -12,6 +12,7 @@
     "@slidev/theme-seriph": "latest"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "playwright-chromium": "^1.36.2"
   }
 }
