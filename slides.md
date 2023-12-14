@@ -456,7 +456,7 @@ $$
 
 Specifically, note that y depends only the sum of x1 and x2, 
 
-$\Rightarrow y=x^{(1)} + x^{(2)} = \frac{1}{\sqrt{\bar\alpha(t)}}(x_t^{(1)} + x_t^{(2)})+\sqrt{\frac{2(1-\bar\alpha(t))}{\bar\alpha(t)}}\varepsilon$  
+$\Rightarrow y=x^{(1)} + x^{(2)} = \frac{1}{\sqrt{\bar\alpha(t)}}(x_t^{(1)} + x_t^{(2)})-\sqrt{\frac{2(1-\bar\alpha(t))}{\bar\alpha(t)}}\varepsilon$  
 
 $\Rightarrow p(y|x_t^{(1)}, x_t^{(2)}) = p(y|x_t^{(1)} + x_t^{(2)}) = \mathcal{N}(y;\frac{1}{\sqrt{\bar\alpha(t)}}(x_t^{(1)} + x_t^{(2)}),\frac{2(1-\bar\alpha(t))}{\bar\alpha(t)})$  
 
